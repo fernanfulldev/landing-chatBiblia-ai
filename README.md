@@ -1,7 +1,3 @@
-Claro, aquí tienes una versión completamente modificada del contenido original del README de Next.js, adaptado a **ChatBiblia.ai**, conservando una estructura clara, moderna y profesional:
-
----
-
 # ChatBiblia.ai
 
 ![ChatBiblia.ai Logo](#) <!-- Puedes reemplazar el `#` con la URL del logo -->
