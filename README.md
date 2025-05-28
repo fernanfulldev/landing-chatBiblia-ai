@@ -67,8 +67,8 @@ Este proyecto está construido con [Next.js](https://nextjs.org), optimizado par
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/chatbiblia.git
-   cd chatbiblia
+   git clone https://github.com/tuusuario/landing-chatBiblia-ai.git
+   cd landing-chatBiblia-ai
    ```
 
 2. Instala dependencias:
