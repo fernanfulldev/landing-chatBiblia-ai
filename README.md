@@ -1,6 +1,6 @@
 # ChatBiblia.ai
 
-![ChatBiblia.ai Logo](#) <!-- Puedes reemplazar el `#` con la URL del logo -->
+![ChatBiblia.ai Logo](https://chatbiblia.ai/_next/images/logo-icon.png) <!-- Puedes reemplazar el `#` con la URL del logo -->
 
 **Descubre la Palabra de Dios con Inteligencia Artificial**
 
