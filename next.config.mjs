@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // ⚠️ Elimina o comenta esta línea
+  // output: 'export',
+
   images: {
-    unoptimized: true, // desactiva la optimización
+    unoptimized: true, // Esto está bien si sigues sin usar `next/image` optimizado
   },
 };
 
