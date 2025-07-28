@@ -1,10 +1,6 @@
-Claro, aquí tienes una versión completamente modificada del contenido original del README de Next.js, adaptado a **ChatBiblia.ai**, conservando una estructura clara, moderna y profesional:
-
----
-
 # ChatBiblia.ai
 
-![ChatBiblia.ai Logo](#) <!-- Puedes reemplazar el `#` con la URL del logo -->
+![ChatBiblia.ai Logo](https://chatbiblia.ai/_next/images/logo-icon.png) <!-- Puedes reemplazar el `#` con la URL del logo -->
 
 **Descubre la Palabra de Dios con Inteligencia Artificial**
 
@@ -71,8 +67,8 @@ Este proyecto está construido con [Next.js](https://nextjs.org), optimizado par
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/chatbiblia.git
-   cd chatbiblia
+   git clone https://github.com/tuusuario/landing-chatBiblia-ai.git
+   cd landing-chatBiblia-ai
    ```
 
 2. Instala dependencias:
