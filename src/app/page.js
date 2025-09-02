@@ -186,6 +186,8 @@ export default function Home() {
             >
               {t.nav.joinWaitlist}
             </a>
+              <a href="/chat" className="text-gray-600 hover:text-yellow-600 transition">Chat</a>
+            
             <button
               onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}
               className="text-gray-600 hover:text-yellow-600 transition"
