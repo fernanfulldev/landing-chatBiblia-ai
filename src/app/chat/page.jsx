@@ -10,12 +10,16 @@ export default function ChatRedirect() {
   useEffect(() => {
     const newThreadId = uuidv4();
     const now = new Date().toISOString();
-    // Initialize new thread in localStorage with timestamp
+
+    // Cargar hilos desde localStorage
     const stored = localStorage.getItem('biblical-chat-threads');
     const threads = stored ? JSON.parse(stored) : {};
     threads[newThreadId] = { messages: [], lastUpdated: now };
+
+    // Guardar de nuevo
     localStorage.setItem('biblical-chat-threads', JSON.stringify(threads));
-    // Redirect to new thread
+
+    // Redirigir
     router.push(`/chat/${newThreadId}`);
   }, [router]);
 

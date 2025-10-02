@@ -123,7 +123,7 @@ export default function ChatClient({ hash }) {
       }`}
     >
       <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-        <strong>{msg.role === 'user' ? 'You' : 'BibliaBot'}:</strong> {msg.content}
+        <strong>{msg.role === 'user' ? 'You' : 'ChatBiblia'}:</strong> {msg.content}
       </p>
     </motion.div>
   );
@@ -180,7 +180,7 @@ export default function ChatClient({ hash }) {
       <main className="flex-1 flex flex-col p-6 bg-white">
         <h1 className="text-2xl font-bold text-yellow-600 mb-4 flex items-center gap-2">
           <Sparkles className="w-6 h-6" />
-          Biblical Chat
+          ChatBiblia.ai
         </h1>
 
         <div className="flex-1 overflow-y-auto space-y-2 mb-4">
@@ -192,7 +192,7 @@ export default function ChatClient({ hash }) {
               transition={{ duration: 0.3 }}
               className="bg-gray-100 border-l-4 border-yellow-400 p-4 rounded-xl text-sm text-gray-600"
             >
-              BibliaBot: typing...
+              ChatBiblia: typing...
             </motion.div>
           )}
         </div>
